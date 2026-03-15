@@ -71,12 +71,12 @@ plt.figure(figsize=(10, 6))
 
 # Genuine skorlar
 plt.hist(genuine_scores, bins=50, alpha=0.6, color='green', 
-         label='Genuine Scores)', 
+         label='Genuine Scores', 
          density=True, edgecolor='black', linewidth=0.5)
 
 # Imposter skorlar
 plt.hist(imposter_scores, bins=50, alpha=0.6, color='red', 
-         label='Imposter Scores)', 
+         label='Imposter Scores', 
          density=True, edgecolor='black', linewidth=0.5)
 
 plt.xlabel('Benzerlik Skoru', fontsize=12)
